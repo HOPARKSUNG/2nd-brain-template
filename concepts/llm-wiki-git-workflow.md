@@ -49,3 +49,13 @@ git commit -m "feat: sync llm-wiki canonical memory and metadata"
 # 3. 내 원격 저장소에 업로드
 git push origin dev-260726
 ```
+
+## 4. PR (Pull Request) 및 AI 코드 리뷰 (PR-Agent)
+
+원격 저장소에 푸시한 후, `main` 브랜치로 병합하기 위해 깃허브에서 Pull Request를 생성한다.
+이 프로젝트는 코드 리뷰와 품질 검증을 자동화하기 위해 **CodiumAI PR-Agent**를 도입하여 사용한다.
+
+- PR을 생성하거나 새로운 커밋을 푸시(synchronize)하면, 깃허브 액션에 설정된 PR-Agent가 자동으로 트리거된다.
+- Gemini 2.5 Pro 모델 기반으로 변경 사항(코드 및 마크다운)을 분석하여 PR 코멘트에 리뷰와 요약을 남긴다.
+- 설정 파일(`.pr_agent.toml`)을 통해 프로젝트에 맞는 최적의 LLM 모델을 강제 지정하여 무결성을 보장한다.
+- 검토가 완료되고 안전성이 검증된 PR만 `main` 브랜치로 머지(Merge)하여 지식 베이스를 갱신한다.

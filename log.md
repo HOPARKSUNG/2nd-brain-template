@@ -121,3 +121,13 @@
   - `test-note.md` -> `inbox/test-note.md` (비정식 테스트 파일을 inbox로 격리)
 - Integrity: `raw/youtube/sunghothegamebird-channel.md` 파일의 body hash를 `8c9a930806bc96b6ff8a642613077eeb4e6db478367041f5f20bf75ad25ce19d`로 갱신함.
 - Canonical state: `index.md`에 등록된 11개의 페이지가 모두 파일시스템과 일치함을 확인.
+
+## [2026-07-26] update | PR-Agent 코드 리뷰 자동화 인프라 도입
+
+- Created:
+  - `.github/workflows/pr-agent.yml` (PR-Agent 깃허브 액션 설정)
+  - `.pr_agent.toml` (Gemini 2.5 Pro 모델 강제 지정)
+- Updated:
+  - `README.md` (AI Automation Tools 목록에 PR-Agent 추가)
+  - `concepts/llm-wiki-git-workflow.md` (PR 생성 및 AI 코드 리뷰 자동화 과정 명시)
+- Note: PR-Agent의 환경변수 인식 버그를 회피하기 위해 `.pr_agent.toml` 물리적 설정 파일을 도입하여 모델(gemini-2.5-pro)을 고정하고, `OPENAI_KEY` 시크릿 연동 오류를 해결함.
