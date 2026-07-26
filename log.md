@@ -74,3 +74,22 @@
 - Correction: the immediately preceding lint entry reports 27 source references, but the measured canonical frontmatter total is 30.
 - Unchanged measurements: 17 claim-level markers, 33 canonical links, 8 canonical pages, and 0 lint errors or warnings.
 - Updated: `log.md` only; no raw or canonical page was changed.
+
+## [2026-07-26] ingest | AI 에이전트와 지식 자동화 원본 수집
+
+- Created: `raw/articles/ai-agent-automation.md`
+- Source URL: https://example.com/ai-agent-automation
+- Body SHA-256: `0b0df0d692b26136b32677e778be97085139ebd006a7a7e5b114a49ffb897d31`
+
+## [2026-07-26] create | AI 에이전트 자동화 및 Git 실습 워크플로 정식 지식 코어
+
+- Created:
+  - `concepts/ai-agent-automation.md`
+  - `concepts/llm-wiki-git-workflow.md`
+- Sources: `raw/articles/ai-agent-automation.md`
+- Wikilinks: `[[llm-wiki]]`, `[[ai-personal-knowledge-management]]`, `[[ai-knowledge-workflow]]`
+- Updated:
+  - `SCHEMA.md`
+  - `index.md` (Total pages: 10)
+  - `log.md`
+
