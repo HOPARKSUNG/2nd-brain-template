@@ -22,5 +22,5 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.OPENAI_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_AGENT_CONFIG_MODEL: "gemini/gemini-3.1-pro"
-          PR_AGENT_CONFIG_FALLBACK_MODELS: "[\"gemini/gemini-3.6-flash\"]"
+          PR_AGENT_CONFIG_MODEL: "gemini/gemini-3.6-flash"
+          PR_AGENT_CONFIG_FALLBACK_MODELS: "[\"gemini/gemini-3.1-pro\"]"
