@@ -20,5 +20,9 @@ jobs:
       - id: pragent
         uses: Codium-ai/pr-agent@main
         env:
-          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          # 사용자님이 등록하신 OPENAI_KEY 시크릿(실제로는 Gemini 키)을 PR-Agent가 인식하도록 GEMINI_API_KEY로 연결
+          GEMINI_API_KEY: ${{ secrets.OPENAI_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # PR-Agent에게 기본 OpenAI 대신 Google Gemini 모델을 사용하라고 명시적으로 설정
+          PR_AGENT_CONFIG_MODEL: "gemini/gemini-1.5-pro"
+          PR_AGENT_CONFIG_FALLBACK_MODELS: "[\"gemini/gemini-1.5-flash\"]"
