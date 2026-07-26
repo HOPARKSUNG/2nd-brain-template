@@ -93,3 +93,17 @@
   - `index.md` (Total pages: 10)
   - `log.md`
 
+## [2026-07-26] ingest | 개인 유튜브 채널 원본 수집
+
+- Created: `raw/youtube/sunghothegamebird-channel.md`
+- Source URL: https://www.youtube.com/@sunghothegamebird
+- Note: sha256 pending-manual-verification (채널 페이지 JavaScript 렌더링 제한으로 수동 수집)
+
+## [2026-07-26] create | @sunghothegamebird 유튜브 채널 정식 개체 노드
+
+- Created: `entities/sunghothegamebird-youtube-channel.md`
+- Sources: `raw/youtube/sunghothegamebird-channel.md`
+- Wikilinks: `[[ai-knowledge-workflow]]`, `[[llm-wiki]]`, `[[llm-wiki-git-workflow]]`
+- Updated:
+  - `index.md` (Total pages: 11)
+  - `log.md`

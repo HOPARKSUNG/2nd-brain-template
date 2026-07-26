@@ -3,9 +3,11 @@
 > Complete catalog of active canonical pages. Each entry is a wikilink followed by
 > a one-line summary, sorted alphabetically within its section.
 >
-> Total pages: 10
+> Total pages: 11
 
 ## Entities
+
+- [[sunghothegamebird-youtube-channel]] — HOPARKSUNG이 운영하는 개인 유튜브 채널 정보 및 2nd-Brain 연결 방안.
 
 ## Concepts
 
