@@ -1,7 +1,7 @@
 ---
 title: AI 지식 워크플로
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-26
 type: concept
 tags:
   - automation
@@ -48,6 +48,6 @@ AI 지식 워크플로는 원본 수집부터 검토된 지식과 산출물 생�
 - 프로젝트 README나 소개 영상의 홍보성 주장이 검증 없이 굳어질 수 있다.
 - 자동화가 늘수록 잘못된 메타데이터가 빠르게 전파될 수 있다.
 
-따라서 생성 속도는 출처, 링크, 스키마와 일관성 검사를 자동화할 때 비로소 장기 지식 품질로 이어진다.
+따라서 생성 속도는 출처, 링크, 스키마와 일관성 검사를 자동화할 때 비로소 장기 지식 품질로 이어진다. [[ai-agent-automation]]을 활용하면 이 자동화를 실현할 수 있다.
 
-구체적인 단계 배치는 [[knowledge-tool-roles]], 반복 운영 모델은 [[research-feedback-loop]], 연구 환경 구현은 [[second-brain-research-workflow]]를 참고한다. ^[raw/notebooklm/2026-07-16-all-notes.md]
+구체적인 단계 배치는 [[knowledge-tool-roles]], 반복 운영 모델은 [[research-feedback-loop]], 연구 환경 구현은 [[second-brain-research-workflow]], 실습 절차는 [[llm-wiki-git-workflow]]를 참고한다. ^[raw/notebooklm/2026-07-16-all-notes.md]

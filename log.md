@@ -107,3 +107,17 @@
 - Updated:
   - `index.md` (Total pages: 11)
   - `log.md`
+
+## [2026-07-26] repair | 누락된 파일 복구 및 메타데이터 수정
+
+- Created:
+  - `raw/articles/ai-agent-automation.md` (누락된 원본 기록 생성)
+  - `concepts/ai-agent-automation.md` (누락된 정식 노트 생성)
+- Updated:
+  - `concepts/llm-wiki-git-workflow.md` (제목 한글 통일 및 연결 강화)
+  - `concepts/ai-knowledge-workflow.md` (그래프 연결 강화)
+  - `raw/youtube/sunghothegamebird-channel.md` (수동 수집 파일의 sha256 무결성 계산 완료)
+- Moved:
+  - `test-note.md` -> `inbox/test-note.md` (비정식 테스트 파일을 inbox로 격리)
+- Integrity: `raw/youtube/sunghothegamebird-channel.md` 파일의 body hash를 `8c9a930806bc96b6ff8a642613077eeb4e6db478367041f5f20bf75ad25ce19d`로 갱신함.
+- Canonical state: `index.md`에 등록된 11개의 페이지가 모두 파일시스템과 일치함을 확인.

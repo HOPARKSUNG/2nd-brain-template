@@ -1,7 +1,7 @@
 ---
 source_url: https://www.youtube.com/@sunghothegamebird
 ingested: 2026-07-26
-sha256: pending-manual-verification
+sha256: 8c9a930806bc96b6ff8a642613077eeb4e6db478367041f5f20bf75ad25ce19d
 ---
 
 # HOPARKSUNG 개인 유튜브 채널 원본 기록

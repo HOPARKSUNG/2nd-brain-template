@@ -1,5 +1,5 @@
 ---
-title: LLM Wiki Git Workflow
+title: LLM Wiki Git 실습 워크플로
 created: 2026-07-26
 updated: 2026-07-26
 type: concept
@@ -14,7 +14,7 @@ contested: false
 contradictions: []
 ---
 
-# LLM Wiki 및 Git 실습 워크플로
+# LLM Wiki Git 실습 워크플로
 
 LLM Wiki 지식 베이스 구축 시스템에서 AI 에이전트(Antigravity)와 사용자가 협력하여 원본 자료를 보존하고, 정식 지식을 컴파일하며, Git 원격 저장소와 안전하게 동기화하는 실행 지침이다. ^[raw/articles/ai-agent-automation.md]
 
@@ -31,7 +31,7 @@ git branch
 
 [[ai-personal-knowledge-management]] 및 [[llm-wiki]] 원칙에 따라:
 1. `raw/` 폴더에 변경 불가능한 원본 증거(Raw Evidence)를 보존하고 SHA-256 무결성을 계산한다.
-2. AI 에이전트에게 지시하여 `concepts/` 및 `entities/`에 출처(`sources`, `^[raw/...]`)가 명시된 정식 노트를 컴파일한다.
+2. [[ai-agent-automation]] 기능을 활용하여 `concepts/` 및 `entities/`에 출처(`sources`, `^[raw/...]`)가 명시된 정식 노트를 컴파일한다.
 3. [[ai-knowledge-workflow]] 품질 관문에 맞춰 `index.md` 총 페이지 수와 목차를 갱신하고, `log.md`에 추적 변경 이력을 기록한다.
 
 ## 3. 원격 저장소 동기화 (Git Push)
